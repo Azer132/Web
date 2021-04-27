@@ -1,17 +1,18 @@
-.container {
+.container1, .container2 {
     border: 5px solid black;
     text-align: center;
     width: 50%;
     margin: auto;
     
 }
-.flex-container {
+.flex-container, .flex-container-img {
     border: 1px solid black;
     display: flex;
     padding: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
+    height: min-content;
 }
 
 .flex-container div {
@@ -20,4 +21,13 @@
     display: flex;
     align-content: center;
 
+}
+
+
+.flex-container-img img{
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: -14px 8px 100px #333 inset, 0 0 2px #888, 3px -1px 4px #444;
 }

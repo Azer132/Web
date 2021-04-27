@@ -12,3 +12,17 @@ function getYear() {
 function reset(){
     document.getElementById('ageInDays').remove();
 }
+
+
+//Challenge2
+
+function catgen(){
+    var image = document.createElement('img') ; 
+    var div = document.getElementById('catcon');
+    image.src= "http://thecatapi.com/api/images/get?format=src&type=gif";
+    div.appendChild(image);
+}
+
+function deleteAll(){
+    document.getElementById('catcon').remove();
+}
